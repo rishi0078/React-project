@@ -17,12 +17,12 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 
 function SearchPage() {
     const [{term},dispatch]=useStateValue();
-    const{ data }=useGoogleSearch(term);
+    //const{ data }=useGoogleSearch(term);
     //LIVE API CALL
     // const {data}=useGoogleSearch(term);
 
     // Mock API CALL
-     //const data = Response;
+     const data = Response;
 
 
    console.log(data)
