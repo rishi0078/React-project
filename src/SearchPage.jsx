@@ -32,14 +32,54 @@ function SearchPage() {
      
         <div className='SearchPage'>
             <div className='searchPage_header'>
-               
+                  <Link to="/">
+                 <img className="searchPage_logo" src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"  />
+               </Link>               
 
                 <div className="searchPage_headerBody">
                     <Search hideButtons />
 
 
                     <div className="searchPage_option">
-                     
+                     <div className="searchPage_optionLeft">
+                          <div className="searchPage_option">
+                               <DescriptionIcon />
+                               <Link to="/news">News</Link>
+                           </div>
+
+                           <div className="searchPage_option">
+                               <SearchIcon />
+                               <Link to="/all">All</Link>
+                           </div>
+
+                           <div className="searchPage_option">
+                               <ImageIcon />
+                               <Link to="/images">Images</Link>
+                           </div>
+
+                           <div className="searchPage_option">
+                               <LocalOfferIcon />
+                               <Link to="/shopping">shopping</Link>
+                           </div>
+                           <div className="searchPage_option">
+                               <RoomIcon />
+                               <Link to="/maps">maps</Link>
+                           </div>
+
+                           <div className="searchPage_option">
+                               <MoreVertIcon />
+                               <Link to="/more">more</Link>
+                           </div>
+                      </div>
+                        <div className="searchPage_optionRight">
+                            <div className="searchPage_option">
+                              <Link to="/setting">Setting</Link>
+                           </div>
+
+                           <div className="searchPage_option">
+                               <Link to="/tools">Tools</Link>
+                           </div>
+                      </div>
                     </div>
 
                 </div>
